@@ -18,7 +18,7 @@ Listage du matériel nécessaire et de leur utilité dans le projet.
 <br>
 Dessin papier réalisé pour la structure de la boite contenant tout notre matériel.
 <br>
-Formation de la boite de manière "réelle" grâce à la découpe et au collage d'une planche en PVC.
+Début de la formation de la boite de manière "réelle" grâce à la future découpe et au future collage d'une planche en PVC.
 <br>
 Début présentation Powerpoint.
 
