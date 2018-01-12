@@ -15,6 +15,7 @@ Création du groupe et confrontation d'idées autour du projet.
 <li> Séance du 12 Janvier 2018 </li>
 </ul>
 Listage du matériel nécessaire et de leur utilité dans le projet.
+
 Dessin papier réalisé pour la structure de la boite contenant tout notre matériel.
 Formation de la boite de manière "réelle" grâce à la découpe et au collage d'une planche en PVC.
 Début présentation Powerpoint.
