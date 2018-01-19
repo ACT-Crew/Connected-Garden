@@ -23,3 +23,12 @@ Début de la formation de la boite de manière "réelle" grâce à la future dé
 Début présentation Powerpoint.
 
 -------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 19 Janvier 2018 </li>
+</ul>
+Assemblage et collage de planche PVC donnant une idée de la structure de la boite.
+<br>
+Continuation de la présentation Powerpoint.
+<br>
+
