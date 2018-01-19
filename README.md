@@ -25,7 +25,7 @@ Notre projet consiste à fabriquer une boîte constituée de plusieurs compartim
 </ul>  
 Chaque plante disposera ainsi d'une pompe l'alimentant en eau lorsqu'elle en aura besoin, ainsi que d'un capteur d'humidité et d'un écran LCD affichant son taux d'humidité ainsi que son évolution (symbolisée par une flèche montante ou descendante).  
   
-Fonctionnement principal de notre jardin connecté  
+Fonctionnement principal de notre jardin connecté :   
 --
 Lorsque le taux d'humidité atteint un seuil "critique", la led d'avertissement reliée au capteur s'allumera et le programme nous proposera par bluetooth (ou wifi) d'arroser la plante. De plus, nous serons en mesure d'allumer ou d'éteindre la lumière à tout moment via une application Android que nous créerons dans l'avenir.   
 
