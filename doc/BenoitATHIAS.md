@@ -30,5 +30,15 @@ Début présentation Powerpoint.
 Assemblage et collage de planche PVC donnant une idée de la structure de la boite.
 <br>
 Continuation de la présentation Powerpoint.
+
+
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 23 Janvier 2018 </li>
+</ul>
+Présentation orale de notre projet.
+<br>
+Codage de la pompe.
 <br>
 
