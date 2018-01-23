@@ -26,3 +26,11 @@ Troisième séance (19 janvier 2018)
 <li>Continuation du diaporama concernant pour la présentation de notre projet </li>  
 <li>Etablissement d'un planning </li>  
 </ul>
+
+Quatrième séance (23 janvier 2018)  
+--
+<ul>
+<li>Première présentation orale de l'avancée de nos travaux</li> 
+<li>Prise de renseignements pour le FabLab de la Telecom Valley pour l'utilisation de la découpeuse laser</li> 
+<li>Tentatives de faire fonctionner la pompe</li> 
+</ul>
