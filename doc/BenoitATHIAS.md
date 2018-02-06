@@ -40,5 +40,10 @@ Continuation de la présentation Powerpoint.
 Présentation orale de notre projet.
 <br>
 Codage de la pompe.
-<br>
 
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Sénce du 6 Février 2018 </li>
+</ul>
+Compréhension et codage du capteur d'humidité
