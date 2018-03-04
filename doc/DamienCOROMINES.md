@@ -49,4 +49,4 @@ Cinquième séance (6 février 2018)
   <li> Nous avons réussi à faire fonctionner la pompe en connectant d'une part le Générateur de Base Fréquente en 12V et d'une autre, ce dernier en 5V symbolisant la carte Arduino, bien que la pompe semble fonctionner assez faiblement </li>
   </ul>  
 
-Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en se servant de la carte Arduino, éventuellement un code, et de trouver une tension adéquate pour faire fonctionner la pompe comme nous le souhaitons.
+Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en se servant de la carte Arduino, éventuellement avec un code nous permettant de contrôler la marche/arrêt de la pompe en fonction du temps, et de trouver une tension adéquate pour faire fonctionner cette-dernière comme nous le souhaitons.
