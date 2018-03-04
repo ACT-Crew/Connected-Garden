@@ -39,7 +39,7 @@ Cinquième séance (6 février 2018)
 --
 <ul>
   <li> Compréhension et exécution du codage et des branchements des capteurs d'humidité </li>
-  <li> Tentative de faire fonctionner la pompe avec un ULN2803 (composants constitué de transistors permettant de gérer les différentes tensions afin de protéger notre Arduino de la pile de 12V) /li>
+  <li> Tentative de faire fonctionner la pompe avec un ULN2803 (composants constitué de transistors permettant de gérer les différentes tensions afin de protéger notre Arduino de la pile de 12V) </li>
  </ul>
 ... sans succès
  
