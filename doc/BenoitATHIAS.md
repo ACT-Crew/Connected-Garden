@@ -20,13 +20,13 @@ Dessin papier réalisé pour la structure de la boite contenant tout notre maté
 <br>
 Début de la formation de la boite de manière "réelle" grâce à la future découpe et au future collage d'une planche en PVC.
 <br>
-Début présentation Powerpoint.7
+Début présentation Powerpoint
 -------------------------------------------------------------------------------------------
 
 <ul>
 <li> Séance du 19 Janvier 2018 </li>
 
-<</ul>
+</ul>
 Assemblage et collage de planche PVC donnant une idée de la structure de la boite.
 <br>
 Continuation de la présentation Powerpoint.
