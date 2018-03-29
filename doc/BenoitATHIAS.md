@@ -46,4 +46,32 @@ Codage de la pompe.
 <ul>
 <li> Sénce du 6 Février 2018 </li>
 </ul>
-Compréhension et codage du capteur d'humidité
+Compréhension et codage du capteur d'humidité.
+
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 22 Février 2018 </li>
+</ul>
+Complémentation du code des capteurs d'humidités.
+<br>
+
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 15 Mars 2018 </li>
+</ul>
+Tentative de compréhension de l'UNL2803 TOSHIBA via datasheet et cablage de cette dernière.
+Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
+<br>
+
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 29 Mars 2018 </li>
+</ul>
+Tentative de compréhension de l'UNL2803 TOSHIBA via datasheet et cablage de cette dernière.
+Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
+<br>
+
+-------------------------------------------------------------------------------------------
