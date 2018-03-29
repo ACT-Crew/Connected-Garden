@@ -26,7 +26,8 @@ Début présentation Powerpoint.
 
 <ul>
 <li> Séance du 19 Janvier 2018 </li>
-</ul>
+
+<</ul>
 Assemblage et collage de planche PVC donnant une idée de la structure de la boite.
 <br>
 Continuation de la présentation Powerpoint.
@@ -54,6 +55,7 @@ Compréhension et codage du capteur d'humidité.
 <li> Séance du 22 Février 2018 </li>
 </ul>
 Complémentation du code des capteurs d'humidités.
+<br>
 Réception de la puce UNL2803 TOSHIBA permettant de prtéger l'arduino lors de la connexion entre cette dernière et les pompes.
 <br>
 
@@ -63,6 +65,7 @@ Réception de la puce UNL2803 TOSHIBA permettant de prtéger l'arduino lors de l
 <li> Séance du 15 Mars 2018 </li>
 </ul>
 Tentative de compréhension de l'UNL2803 TOSHIBA via datasheet et cablage de cette dernière.
+<br>
 Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
 <br>
 
