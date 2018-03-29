@@ -20,8 +20,7 @@ Dessin papier réalisé pour la structure de la boite contenant tout notre maté
 <br>
 Début de la formation de la boite de manière "réelle" grâce à la future découpe et au future collage d'une planche en PVC.
 <br>
-Début présentation Powerpoint.
-
+Début présentation Powerpoint.7
 -------------------------------------------------------------------------------------------
 
 <ul>
@@ -72,7 +71,7 @@ Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
 -------------------------------------------------------------------------------------------
 
 <ul>
-<li> Séance du 29 Mars 2018 </li>
+<li> Séance du 27 Mars 2018 </li>
 </ul>
 Utilisation de l'UNL2803 enfin comprise.
 <br>
