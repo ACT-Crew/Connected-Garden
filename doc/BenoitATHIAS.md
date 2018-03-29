@@ -56,7 +56,7 @@ Compréhension et codage du capteur d'humidité.
 </ul>
 Complémentation du code des capteurs d'humidités.
 <br>
-Réception de la puce UNL2803 TOSHIBA permettant de prtéger l'arduino lors de la connexion entre cette dernière et les pompes.
+Réception de la puce UNL2803 TOSHIBA permettant de protéger l'arduino lors de la connexion entre cette dernière et les pompes.
 <br>
 
 -------------------------------------------------------------------------------------------
@@ -75,6 +75,8 @@ Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
 <li> Séance du 29 Mars 2018 </li>
 </ul>
 Utilisation de l'UNL2803 enfin comprise.
+<br>
+Début présentation Powerpoint.
 <br>
 
 -------------------------------------------------------------------------------------------
