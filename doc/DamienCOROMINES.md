@@ -54,7 +54,7 @@ Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en
  Septième séance (16 mars 2018)
  --
  <ul>
-  <li> Nous avons étudié les datasheet du composant ULN2803 afin de comprendre pleinement son utilité et comment s'en servir au mieux. Il s'agit d'un composantt permettant de protéger notre carte Arduino grâce à une série de LED qui se bloque dans un sens pour empêcher le 12V d'arriver jusqu'a la carte Arduino. </li>
+  <li> Nous avons étudié les datasheet du composant ULN2803 afin de comprendre pleinement son utilité et comment s'en servir au mieux. Il s'agit d'un composantt permettant de protéger notre carte Arduino grâce à une série de LED qui se bloquent dans un sens pour empêcher le 12V d'arriver jusqu'a la carte Arduino. </li>
   </ul> 
    
  Huitième séance (27 mars 2018)
