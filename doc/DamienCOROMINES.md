@@ -46,7 +46,20 @@ Cinquième séance (6 février 2018)
  Sixième séance (22 février 2018)
  --
  <ul>
-  <li> Nous avons réussi à faire fonctionner la pompe en connectant d'une part le Générateur de Base Fréquente en 12V et d'une autre, ce dernier en 5V symbolisant la carte Arduino, bien que la pompe semble fonctionner assez faiblement </li>
+  <li> Nous avons réussi à faire fonctionner la pompe en connectant d'une part le Générateur de Base Fréquente en 12V et d'une autre, ce dernier en 5V (représentant la carte Arduino), bien que la pompe semble fonctionner assez faiblement </li>
   </ul>  
 
 Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en se servant de la carte Arduino, éventuellement avec un code nous permettant de contrôler la marche/arrêt de la pompe en fonction du temps, et de trouver une tension adéquate pour faire fonctionner cette-dernière comme nous le souhaitons.
+ 
+ Septième séance (16 mars 2018)
+ --
+ <ul>
+  <li> Nous avons étudié les datasheet du composant ULN2803 afin de comprendre pleinement son utilité et comment s'en servir au mieux. Il s'agit d'un composantt permettant de protéger notre carte Arduino grâce à une série de LED qui se bloque dans un sens pour empêcher le 12V d'arriver jusqu'a la carte Arduino. </li>
+  </ul> 
+   
+ Huitième séance (27 mars 2018)
+ --
+ <ul>
+  <li> Nous sommes parvenu à faire fonctionner la pompe en la contrôlant avec la carte Arduino en se servant du composant ULN2803 et en l'alimentant avec un adaptateur se branchant sur secteur et fournissant une tension de 12V en sortie </li>
+    <li> Commencement du diaporama pour la présentation de l'avancement de notre projet </li>
+  </ul> 
