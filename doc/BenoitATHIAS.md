@@ -69,6 +69,7 @@ Tentative de compréhension de l'UNL2803 TOSHIBA via datasheet et cablage de cet
 <br>
 Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
 <br>
+En effet, bien qu'on ait compris que l'ULN soit constitué d'une série de LED qui se bloquent dans un sens, protégeant l'arduino dans notre cas, des difficultés pour cabler ce dernier ont été rencontrés.
 
 -------------------------------------------------------------------------------------------
 
