@@ -86,9 +86,7 @@ Début présentation Powerpoint.
 <ul>
 <li> Séance du 4 Avril 2018 </li>
 </ul>
-
-<br>
-
+Reliage du montage de l'UNL2803 avec l'arduino et mise en place puis téléversement du code pour gérer les pompes avec l'UNL2803.
 <br>
 
 -------------------------------------------------------------------------------------------
@@ -99,7 +97,7 @@ Début présentation Powerpoint.
 </ul>
 Soudage de la rampe de l'aide de telle sorte à avoir un câble relier à la borne d'alimentation 12V et un autre câble relié aux trois autres bornes, caractérisant la masse, pour obtenir une lumière blanche par additivité des ondes lumineuses rouges, vertes et bleues.
 <br>
-Obtention du module Bluetooth HC06 etdébut de son initialisation. Ce module permettra de commander certains paramètres via notre smartphone android.
+Obtention du module Bluetooth HC06 et début de son initialisation. Ce module permettra de commander certains paramètres via notre smartphone android.
 <br>
 
 -------------------------------------------------------------------------------------------
