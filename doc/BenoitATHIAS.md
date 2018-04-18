@@ -82,3 +82,24 @@ Début présentation Powerpoint.
 <br>
 
 -------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 4 Avril 2018 </li>
+</ul>
+
+<br>
+
+<br>
+
+-------------------------------------------------------------------------------------------
+
+
+<ul>
+<li> Séance du 17 Avril 2018 </li>
+</ul>
+Soudage de la rampe de l'aide de telle sorte à avoir un câble relier à la borne d'alimentation 12V et un autre câble relié aux trois autres bornes, caractérisant la masse, pour obtenir une lumière blanche par additivité des ondes lumineuses rouges, vertes et bleues.
+<br>
+Obtention du module Bluetooth HC06 etdébut de son initialisation. Ce module permettra de commander certains paramètres via notre smartphone android.
+<br>
+
+-------------------------------------------------------------------------------------------
