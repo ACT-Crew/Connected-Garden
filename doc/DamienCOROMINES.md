@@ -63,3 +63,34 @@ Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en
   <li> Nous sommes parvenu à faire fonctionner la pompe en la contrôlant avec la carte Arduino en se servant du composant ULN2803 et en l'alimentant avec un adaptateur se branchant sur secteur et fournissant une tension de 12V en sortie </li>
     <li> Commencement du diaporama pour la présentation de l'avancement de notre projet </li>
   </ul> 
+
+ Neuvième séance (4 avril 2018)
+ --
+ <ul>
+  <li> Présentation de notre projet à mi-parcours </li>
+    <li> Confection des codes pour faire fonctionner la pompe </li>
+  </ul>
+  
+   Dixième séance (17 avril 2018)
+ --
+ <ul>
+  <li> Etude du module RTC (DS3231) </li>
+  </ul> 
+  
+   Onzième séance (2 mai 2018)
+ --
+ <ul>
+  <li> Nous sommes parvenu à faire fonctionner le module RTC sans parvenir à initialiser la date </li>
+  </ul> 
+  
+  Séance supplémentaire (4 mai 2018)
+  --
+  Nous sommes allé au FabLab pour concevoir notre boîte finale, en plexiglas à l'aide du matériel mis à notre disposition (logiciels de CAO, découpe laser, colle à UV).  
+  Cette séance particulièrement fut très enrichissante de part son aspect un peu plus liée à la conception mécanique et m'a permis de voir pour la première fois une imprimante 3D en action.
+  
+   Douzième séance (27 mars 2018)
+ --
+ <ul>
+  <li> Initialisation du module RTC à la date d'aujourd'hui </li>
+  <li> Tentative d'allumer une LED en fonction de l'heure... un échec </li>
+  </ul> 
