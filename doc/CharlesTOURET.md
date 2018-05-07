@@ -22,8 +22,11 @@ La pompe fonctionne très bien grâce à un montage (et l'aide de M. Jacquemod) 
 D'abord nous nous sommes documentés sur la "datasheet" de l'ULN2803 pour étudier comment la câbler. Puis nous avons fait le montage avec cette puce mais nous avons rencontrés de nombreuses difficultés (mauvais câblage, fil deffectueux) nous avons perdu pas mal de temps.
 
 # SEANCE 8 (27 MARS):
-Nous avons réussi à faire foncionner les pompes à une faible vitesse. M.Masson nous a donné un adaptateur 12V à brancher directement sur secteur 230V, c'est un moyen simple et efficace pour le bon fonctionnement des pompes. Puis nous avons regardé les présentations des autres groupes et avonc commencé la nôtre.
+Nous avons réussi à faire foncionner les pompes à une faible vitesse. M.Masson nous a donné un adaptateur 12V à brancher directement sur secteur 230V, c'est un moyen simple et efficace pour le bon fonctionnement des pompes. Puis nous avons regardé les présentations des autres groupes et avons commencé la nôtre.
 
+# SEANCE 9 (4 Avril):
+Nous avons inclu des trous dans les parois internes de la boîte
+J'ai soudé les fils de connexion pour la rampe de LED ( masse GND et lumièer blanche (RGB)).
 
 
 
