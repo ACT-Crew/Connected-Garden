@@ -106,7 +106,7 @@ Obtention du module Bluetooth HC06 et début de son initialisation. Ce module pe
 <ul>
 <li> Séance du 2 Mai 2018 </li>
 </ul>
-Récupération des valeurs (entre 0 et 1023) d'un des capteurs d'humidité sous forme d'un tableau en fonction du temps de mise en marche grâc à l'application Electronics Bluetooth.
+Récupération des valeurs (entre 0 et 1023) d'un des capteurs d'humidité sous forme d'un tableau en fonction du temps de mise en marche grâce à l'application Electronics Bluetooth.
 <br>
 Sur cet même application, création d'un panel permettant d'afficher le taux d'humidité (entre 0 et 100%) de ce même capteur.
 
@@ -117,11 +117,12 @@ Sur cet même application, création d'un panel permettant d'afficher le taux d'
 </ul>
 J'ai essayé de commander une des pompes via bluetooth mais sans succès.
 <br>
-J'ai donc pensé que l'utilisation du bluetooth de ma part n'était pas bonne dans ce cas, je l'ai donc arrêté pour essayer maintenant de commander la pompe avec l'arduino uniquement comme auparavant. Toutefois, après des montages et des remontages je n'ai pas réussi à la commander. En effet, la pompe marchait tout le temps, quel que soit l'état envoyé par l'arduino...
+J'ai donc pensé que l'utilisation du bluetooth de ma part n'était pas bonne pour ce cas, je l'ai donc arrêté pour essayer maintenant de commander la pompe avec l'arduino uniquement comme auparavant. Toutefois, après des montages et des remontages je n'ai pas réussi à la commander. En effet, la pompe marchait tout le temps, quel que soit l'état envoyé par l'arduino...
 <br>
 Comme mes montages étaient correct et que cela n'a pas fonctionné, Damien a émis l'hypothèse que notre ULN2803 était grillé. Ainsi lors de la prochaine séance je le vérifierai.
 
 -------------------------------------------------------------------------------------------
+
 <ul>
 <li> Séance du 7 Mai 2018 </li>
 </ul>
