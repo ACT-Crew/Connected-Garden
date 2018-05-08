@@ -71,6 +71,7 @@ Toutefois, de grandes difficultés ont été rencontrées durant cette séance.
 <br>
 En effet, bien qu'on ait compris que l'ULN soit constitué d'une série de LED qui se bloquent dans un sens, protégeant l'arduino dans notre cas, des difficultés pour cabler ce dernier ont été rencontrés.
 
+
 -------------------------------------------------------------------------------------------
 
 <ul>
@@ -110,6 +111,17 @@ Récupération des valeurs (entre 0 et 1023) d'un des capteurs d'humidité sous 
 Sur cet même application, création d'un panel permettant d'afficher le taux d'humidité (entre 0 et 100%) de ce même capteur.
 
 -------------------------------------------------------------------------------------------
+
+<ul>
+<li> Hors Séance : 4 Mai 2018 </li>
+</ul>
+J'ai essayé de commander une des pompes via bluetooth mais sans succès.
+<br>
+J'ai donc pensé que l'utilisation du bluetooth de ma part n'était pas bonne dans ce cas, je l'ai donc arrêté pour essayer maintenant de commander la pompe avec l'arduino uniquement comme auparavant. Toutefois, après des montages et des remontages je n'ai pas réussi à la commander. En effet, la pompe marchait tout le temps, quel que soit l'état envoyé par l'arduino...
+<br>
+Comme mes montages étaient correct et que cela n'a pas fonctionné, Damien a émis l'hypothèse que notre ULN2803 était grillé. Ainsi lors de la prochaine séance je le vérifierai.
+
+-------------------------------------------------------------------------------------------
 <ul>
 <li> Séance du 7 Mai 2018 </li>
 </ul>
@@ -120,5 +132,6 @@ A travers cette séance nous avons émis l'hypothèse que notre ULN2803 ne march
 Après avoir passé notre ULN à l'oscilloscope et au voltmètre nous en avons déduit qu'il était grillé. Nous avons donc fait l'acquisition d'un nouveau.
 <br>
 Cet ULN marche correctement, nous pouvons ainsi commander les pompes avec l'arduino par bluetooth.
+  
 -------------------------------------------------------------------------------------------
 
