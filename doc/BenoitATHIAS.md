@@ -101,6 +101,15 @@ Obtention du module Bluetooth HC06 et début de son initialisation. Ce module pe
 <br>
 
 -------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance du 2 Mai 2018 </li>
+</ul>
+Récupération des valeurs (entre 0 et 1023) d'un des capteurs d'humidité sous forme d'un tableau en fonction du temps de mise en marche grâc à l'application Electronics Bluetooth.
+<br>
+Sur cet même application, création d'un panel permettant d'afficher le taux d'humidité (entre 0 et 100%) de ce même capteur.
+
+-------------------------------------------------------------------------------------------
 <ul>
 <li> Séance du 7 Mai 2018 </li>
 </ul>
