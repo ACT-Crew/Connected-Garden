@@ -86,7 +86,7 @@ Début présentation Powerpoint.
 
 <ul>
 <li> Séance du 4 Avril 2018 </li>
-</ul>
+/</ul>
 Reliage du montage de l'UNL2803 avec l'arduino et mise en place puis téléversement du code pour gérer les pompes avec l'UNL2803.
 <br>
 
@@ -126,7 +126,7 @@ Comme mes montages étaient correct et que cela n'a pas fonctionné, Damien a é
 <ul>
 <li> Séance du 7 Mai 2018 </li>
 </ul>
-<h6>Séance dédié au pilotage d'une des pompes via bluetooth<h6>
+<h6>Séance dédié au pilotage d'une des pompes via bluetooth</h6>
 <br>
 A travers cette séance nous avons émis l'hypothèse que notre ULN2803 ne marchait pas bien, dû aux résultats obtenu lors des câblages du 4 Mai.
 <br>
