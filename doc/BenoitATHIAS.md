@@ -126,8 +126,6 @@ Comme mes montages étaient correct et que cela n'a pas fonctionné, Damien a é
 <ul>
 <li> Séance du 7 Mai 2018 </li>
 </ul>
-<h6>Séance dédié au pilotage d'une des pompes via bluetooth</h6>
-<br>
 A travers cette séance nous avons émis l'hypothèse que notre ULN2803 ne marchait pas bien, dû aux résultats obtenu lors des câblages du 4 Mai.
 <br>
 Après avoir passé notre ULN à l'oscilloscope et au voltmètre nous en avons déduit qu'il était grillé. Nous avons donc fait l'acquisition d'un nouveau.
