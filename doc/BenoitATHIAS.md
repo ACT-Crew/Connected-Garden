@@ -141,9 +141,9 @@ Cet ULN marche correctement, nous pouvons ainsi commander les pompes avec l'ardu
 </ul>
 Mise en commun des composants électroniques sur une carte arduino et en utilisant une breadboard.
 <br>
-Début de l'édition de l'application lbuetooth. Cette dernière permettra à distance de commander les pompes, les LED et de voir le pourcentage d'humidité.
+Début de l'édition de l'application bluetooth. Cette dernière permettra à distance de commander les pompes, les LED et de voir le pourcentage d'humidité.
 <br>
-Nous avons rencontré un problème à travers cette séance, nous n'avons pas réussi à contrôler les deux pompes et la rampe de LED simultanément. En effet, une fois une pompe mise sous tension, la deuxième pompe n'arrivait pas à s'allumer et les LED s'affichait rouge, couleur nécessitant le moins d'énergie. Ce problème n'a pas pu être réglé durant cette séance.
+Nous avons rencontré un problème à travers cette séance, nous n'avons pas réussi à contrôler les deux pompes et la rampe de LED simultanément. En effet, une fois une pompe mise sous tension, la deuxième pompe n'arrivait pas à s'allumer et les LED s'affichaient rouge, couleur nécessitant le moins d'énergie. Ce problème n'a pas pu être réglé durant cette séance.
   
 -------------------------------------------------------------------------------------------
 
