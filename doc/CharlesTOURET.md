@@ -28,6 +28,23 @@ Nous avons réussi à faire foncionner les pompes à une faible vitesse. M.Masso
 Nous avons inclu des trous dans les parois internes de la boîte
 J'ai soudé les fils de connexion pour la rampe de LED ( masse GND et lumièer blanche (RGB)).
 
+# SEANCE 10 (17 Avril):
+J'ai soudé la rampe de LED (un câble est relé au 12V et l'autre pour la masse qui lie 3 couleurs RVB (Rouges Vertes Bleues), 
+Nous avons récupéré le module Bluetooth HC06 et début de son initialisation qui va commander les paramètres via l'android.
+
+# SEANCE 11 (2 MAI):
+Etude des capteurs d'humidité avec la création d'un tableau en fonction du temps de mise en marche avec l'application Electronics Bluetooth.
+
+# SEANCE SUPPLEMENTAIRE (4 MAI):
+Nous sommes allé au FABLAB avec Damien pour la conception de la boîte. J'ai conceptionné la boite avec un logiciel CAO et ensuite utilisé la découpe laser afin d'obtenir toutes nos pièces de la boite. Puis on les a collés entre elles. Cette séance fût particulièrement interressante d'un point de vue informatique et mecanique.
+
+# SEANCE 12 (7 Mai):
+Durant cette séance, nous nous sommes rendu compte que l'ULN2803 avait un problème, il était tout simplement grillé. Nous en avons donc pris un nouveau.
+
+# Depuis
+Finalisation du montage et des codes
+
+
 
 
 
