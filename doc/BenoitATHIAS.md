@@ -134,3 +134,29 @@ Cet ULN marche correctement, nous pouvons ainsi commander les pompes avec l'ardu
   
 -------------------------------------------------------------------------------------------
 
+
+
+<ul>
+<li> Hors Séance : 18 Mai 2018 </li>
+</ul>
+Mise en commun des composants électroniques sur une carte arduino et en utilisant une breadboard.
+<br>
+Début de l'édition de l'application lbuetooth. Cette dernière permettra à distance de commander les pompes, les LED et de voir le pourcentage d'humidité.
+<br>
+Nous avons rencontré un problème à travers cette séance, nous n'avons pas réussi à contrôler les deux pompes et la rampe de LED simultanément. En effet, une fois une pompe mise sous tension, la deuxième pompe n'arrivait pas à s'allumer et les LED s'affichait rouge, couleur nécessitant le moins d'énergie. Ce problème n'a pas pu être réglé durant cette séance.
+  
+-------------------------------------------------------------------------------------------
+
+
+
+<ul>
+<li> Hors Séance : 25 Mai 2018 </li>
+</ul>
+Problème rencontré lors de la séance précédente résolu ! Il semblerait que c'était une erreur dans notre code. Après avoir séparé les deux pompes et la rampe de LED dans un fichier vierge Arduino pour quelles soient traitées indépendemment des autres composants électroniques, ces dernières se sont finalement mis sous tension.
+<br>
+Mise en commun des codes (capteur d'humidité, module RCT, bluetooth, pompe, LED).
+<br>
+Finalisation de l'édition de l'application. Nous avons ainsi 3 pages permettant à distance de commander les pompes, les LED et de voir le pourcentage d'humidité.
+  
+-------------------------------------------------------------------------------------------
+
