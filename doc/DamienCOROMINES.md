@@ -83,14 +83,27 @@ Notre prochain objectif sera donc de reproduire le montage mais cette fois-ci en
   <li> Nous sommes parvenu à faire fonctionner le module RTC sans parvenir à initialiser la date </li>
   </ul> 
   
-  Séance supplémentaire (4 mai 2018)
+  Séance supplémentaire 1 (4 mai 2018)
   --
   Nous sommes allé au FabLab pour concevoir notre boîte finale, en plexiglas à l'aide du matériel mis à notre disposition (logiciels de CAO, découpe laser, colle à UV).  
   Cette séance particulièrement fut très enrichissante de part son aspect un peu plus liée à la conception mécanique et m'a permis de voir pour la première fois une imprimante 3D en action.
   
-   Douzième séance (27 mars 2018)
+   Douzième séance (7 mai 2018)
  --
  <ul>
   <li> Initialisation du module RTC à la date d'aujourd'hui </li>
   <li> Tentative d'allumer une LED en fonction de l'heure... un échec </li>
   </ul> 
+
+Séance supplémentaire 2 (18 mai 2018)
+--
+Mise en commun des composants électroniques
+Configuration de l'application Bluetooth
+Lors de cette séance nous avons rencontré un problème: nous ne pouvions pas alimenter plusieurs composants en se servant de l'ULN-2803.
+
+Séance supplémentaire 3 (25 mai 2018)
+--
+Mise en commun des codes
+Préparation du diaporama pour la présentation finale
+Rédaction du rapport
+Résolution du problème de la dernière séance. L'intégralité de notre objet à fonctionné. Nous ferons un test grandeur nature au cours de notre prochaine séance. 
