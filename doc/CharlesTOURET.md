@@ -44,6 +44,8 @@ Durant cette séance, nous nous sommes rendu compte que l'ULN2803 avait un probl
 # Depuis
 Finalisation du montage et des codes
 
+# Dernière Séance supplémentaire (30 Mai):
+Finalisation de notre présentation orale. Nous avons testé en entier notre système: nous avons mis la terre et les plantes, pris une vidéo montrant tout le processus de notre projet. Egalement, nous avons fait en sorte de bien répartir notre circuit éléctronique dans nos différents compartiments.
 
 
 
