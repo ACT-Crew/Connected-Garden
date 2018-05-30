@@ -1,7 +1,7 @@
 # SEANCE 1 (20 D2CEMBRE): Membres du groupe: Athias Benoit, Coromines Damien et moi-même.
 Durant la première séance, nous avons définit notre projet qui consiste à innover un jardin connecté avec 2 ou 3 plantes 
 qui sera automatisé et que l'on pourra controler à distance.
-Nous avons déja choisi quelques pistes de développement.
+Nous avons déja choisi quelques pistes de développement. Nous avons regardé plusieurs projets de jardin connectés sur le net afin de voir l'idée et déja prendre conscience du matériel à utiliser: https://www.objetconnecte.net/jardin-connecte-interieur-exterieur-2901/
 
 # SEANCE 2 (12 JANVIER 2018): 
 Nous avons commencé la réalisation de la boite avec Damien en PVC. Il nous reste à élaborer notre planning
