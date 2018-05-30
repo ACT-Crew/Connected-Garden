@@ -107,3 +107,13 @@ Mise en commun des codes
 Préparation du diaporama pour la présentation finale
 Rédaction du rapport
 Résolution du problème de la dernière séance. L'intégralité de notre objet à fonctionné. Nous ferons un test grandeur nature au cours de notre prochaine séance. 
+
+Séance supplémentaire 4 (30 mai 2018)
+--
+ <ul>
+  <li> Utilisation de notre équipement pour la première fois dans notre boîte </li>
+  <li> Jardinage: mise en place de la terre et plantation des plantes </li>
+  <li> Test grandeur nature avec les plantes et le bac d'eau plein: un succès </li>
+  <li> Finalisation de notre présentation </li>
+  <li> Prise d'une vidéo montrant toutes les fonctionnalités de notre projet </li>
+  </ul> 
