@@ -148,7 +148,6 @@ Nous avons rencontré un problème à travers cette séance, nous n'avons pas r�
 -------------------------------------------------------------------------------------------
 
 
-
 <ul>
 <li> Hors Séance : 25 Mai 2018 </li>
 </ul>
@@ -189,7 +188,7 @@ Présentation orale de notre projet.
 
 <h2>Conclusion</h2>
 <p>Ce projet fut très enrichissant tant d'un point de vu électronique en étant confronté à de nouveaux composants électroniques, qu'informatique par le fait de coder sur un systeme embarqué. 
-  <br> De plus, le fait d'être en autonomie est un vrai plus. En effet, cela  a permis de façonner notre projet tout en travaillant en équipe. *
+  <br> De plus, le fait d'être en autonomie est un vrai plus. En effet, cela  a permis de façonner notre projet tout en travaillant en équipe.
 <br>Concernant les problèmes rencontrés, certains ont été dur à résoudre car nous n'avons pas forcément le recul nécessaire pour savoir comment les aborder directement.</p>
 
 
