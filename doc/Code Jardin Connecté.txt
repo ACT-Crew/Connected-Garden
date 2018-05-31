@@ -1,0 +1,244 @@
+//pour le bluetooth
+#include <SoftwareSerial.h>  //Software Serial Port  
+#define RxD 10    //Pin 10 pour RX, PB2 sur votre board, a brancher sur le TX du HC-06
+#define TxD 11    //Pin 11 pour TX, PB3 sur votre board, a brancher sur le RX du HC-06
+SoftwareSerial BTSerie(RxD,TxD);  
+//
+
+//Pour RTC
+#include "Wire.h"
+#define DS3231_I2C_ADDRESS 0x68
+const int LED=2 ;
+// Convert normal decimal numbers to binary coded decimal
+byte decToBcd(byte val)
+{
+  return( (val/10*16) + (val%10) );
+}
+// Convert binary coded decimal to normal decimal numbers
+byte bcdToDec(byte val)
+{
+  return( (val/16*10) + (val%16) );
+}
+//
+
+
+
+const int pompe1 = 5;
+const int planteAna1 = 0;
+const int planteAna2 = 1;
+const int planteDigi1 = 4;
+const int planteDigi2 = 3;
+const int sortie = 7;
+const int pompe2=6;
+int i=0;
+void setup() {
+  //bluetooth
+  // put your setup code here, to run once:
+  pinMode(planteAna1,INPUT);
+  pinMode(planteAna2,INPUT);
+  pinMode(planteDigi1,INPUT);
+  pinMode(planteDigi2,INPUT);
+  Serial.begin(9600);
+  pinMode(RxD, INPUT);  
+  pinMode(TxD, OUTPUT);  
+  BTSerie.begin(9600); 
+  i=0;
+  pinMode(pompe1,OUTPUT);
+  //
+  pinMode(pompe2,OUTPUT);
+
+  //RTC
+  pinMode(LED, OUTPUT);
+  digitalWrite(LED, LOW);
+  Wire.begin();
+  Serial.begin(9600);
+  // set the initial time here:
+  // DS3231 seconds, minutes, hours, day, date, month, year
+  //setDS3231time(0,16,17,3,8,5,18);
+  //
+
+}
+
+//RTC
+void setDS3231time(byte second, byte minute, byte hour, byte dayOfWeek, byte
+dayOfMonth, byte month, byte year)
+{
+  // sets time and date data to DS3231
+  Wire.beginTransmission(DS3231_I2C_ADDRESS);
+  Wire.write(0); // set next input to start at the seconds register
+  Wire.write(decToBcd(second)); // set seconds
+  Wire.write(decToBcd(minute)); // set minutes
+  Wire.write(decToBcd(hour)); // set hours
+  Wire.write(decToBcd(dayOfWeek)); // set day of week (1=Sunday, 7=Saturday)
+  Wire.write(decToBcd(dayOfMonth)); // set date (1 to 31)
+  Wire.write(decToBcd(month)); // set month
+  Wire.write(decToBcd(year)); // set year (0 to 99)
+  Wire.endTransmission();
+}
+void readDS3231time(byte *second,
+byte *minute,
+byte *hour,
+byte *dayOfWeek,
+byte *dayOfMonth,
+byte *month,
+byte *year)
+{
+  Wire.beginTransmission(DS3231_I2C_ADDRESS);
+  Wire.write(0); // set DS3231 register pointer to 00h
+  Wire.endTransmission();
+  Wire.requestFrom(DS3231_I2C_ADDRESS, 7);
+  // request seven bytes of data from DS3231 starting from register 00h
+  *second = bcdToDec(Wire.read() & 0x7f);
+  *minute = bcdToDec(Wire.read());
+  *hour = bcdToDec(Wire.read() & 0x3f);
+  *dayOfWeek = bcdToDec(Wire.read());
+  *dayOfMonth = bcdToDec(Wire.read());
+  *month = bcdToDec(Wire.read());
+  *year = bcdToDec(Wire.read());
+}
+String displayTime()
+{
+  byte second, minute, hour, dayOfWeek, dayOfMonth, month, year;
+  // retrieve data from DS3231
+  readDS3231time(&second, &minute, &hour, &dayOfWeek, &dayOfMonth, &month,
+  &year); 
+  // send it to the serial monitor 
+  Serial.print(hour, DEC);
+  // convert the byte variable to a decimal number when displayed
+  Serial.print(":");
+  if (minute<10)
+  {
+    Serial.print("0");
+  }
+  Serial.print(minute, DEC);
+  Serial.print(":");
+  if (second<10)
+  {
+    Serial.print("0");
+  }
+  Serial.print(second, DEC);
+  Serial.print(" ");
+  Serial.print(dayOfMonth, DEC);
+  Serial.print("/");
+  Serial.print(month, DEC);
+  Serial.print("/");
+  Serial.print(year, DEC);
+  Serial.print(" Day of week: ");
+  switch(dayOfWeek){
+  case 1:
+    Serial.println("Sunday");
+    break;
+  case 2:
+    Serial.println("Monday");
+    break;
+  case 3:
+    Serial.println("Tuesday");
+    break;
+  case 4:
+    Serial.println("Wednesday");
+    break;
+  case 5:
+    Serial.println("Thursday");
+    break;
+  case 6:
+    Serial.println("Friday");
+    break;
+  case 7:
+    Serial.println("Saturday");
+    break;
+  }
+  //allumer les pompes lors de la nuit
+  if(hour>20 && hour<24) {
+    digitalWrite(LED, HIGH);
+    }
+  if(hour>0 && hour<7) {
+    digitalWrite(LED, HIGH);
+    } 
+    String res = String(hour);
+    res += ":";
+    res += String(minute);
+    res += ":";
+    res += String(second);
+  return res;
+   
+}
+//
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int humideDigi1 = digitalRead(planteDigi1);    // renvoie une valeur en 0 et 1
+  int humideAna1 = analogRead(planteAna1);   //renvoie une valeur entre 0 et 1023
+  int pourcentageHumidite1 = float((float((1023.00-humideAna1)/1023.00))*100.00);
+
+  int humideDigi2 = digitalRead(planteDigi2);    // renvoie une valeur en 0 et 1
+  int humideAna2 = analogRead(planteAna1);   //renvoie une valeur entre 0 et 1023
+  int pourcentageHumidite2 = float((float((1023.00-humideAna2)/1023.00))*100.00);
+
+
+//si un des capteur est à l'état haut donc si besoin d'aroser automatiquement
+  if (humideDigi1==HIGH) {
+    digitalWrite(pompe1,HIGH); 
+  }
+  else {
+    digitalWrite(pompe1,LOW); 
+    
+  }
+  if (humideDigi2==HIGH) {
+    digitalWrite(pompe2,HIGH); 
+  }
+  else {
+    digitalWrite(pompe2,LOW); 
+  }
+
+  
+
+
+//affichage de l'humidité toutes les 2 secondes
+if (i%3==0) {
+  BTSerie.write("*H"); //plante gauche
+BTSerie.print(pourcentageHumidite1);
+BTSerie.write("*" ); 
+
+BTSerie.write("*B");   //plante droite
+BTSerie.print(pourcentageHumidite1);
+BTSerie.write("*" ); 
+}
+
+++i;
+
+
+
+//affichage de l'heure
+BTSerie.write("*T");
+BTSerie.print(displayTime());
+BTSerie.write("*" ); 
+
+//coté bluetooth
+char recvChar;  
+
+if (BTSerie.available()) {  
+    recvChar = BTSerie.read(); //lecture 
+    
+    //allumer/etiendre les pompes 
+    if (recvChar=='d' || recvChar=='D')  {  //plante droite
+      digitalWrite(pompe1,HIGH); }
+    if (recvChar=='g' || recvChar=='G')  {  //plante gauche
+      digitalWrite(pompe2,HIGH); }
+    //éteindre les pompes
+    if (recvChar=='s' || recvChar=='S')  { 
+      digitalWrite(pompe1,LOW);
+      digitalWrite(pompe2,LOW); 
+      digitalWrite(LED,LOW); 
+}
+
+    //Allumer/éteindre les LED
+    if (recvChar=='l' || recvChar=='L')  {  //plante droite
+      digitalWrite(LED,HIGH); }
+   
+    Serial.print(recvChar);  //ecriture
+  } 
+
+  
+delay(1000); 
+}
+
