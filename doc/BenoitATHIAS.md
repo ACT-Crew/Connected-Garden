@@ -160,3 +160,38 @@ Finalisation de l'édition de l'application. Nous avons ainsi 3 pages permettant
   
 -------------------------------------------------------------------------------------------
 
+
+<ul>
+<li> Hors Séance : 30 Mai 2018 </li>
+</ul>
+Mise en place de terre et plantes dans notre boite.
+<br>
+Rassemblement des composants électronique dans la boite.
+<br>
+La boite n'étant pas étanche, nous avons du placer un sachet congélation dans le compartiment de l'eau pour ne pas qu'elle s'y répandre en dehors.
+<br>
+Test de notre projet qui fut un succes.
+<br>
+Prise d'une vidéo du fonctionnement de notre projet, si jamais il ne marchait pas le jour de l'oral et pour souvenir.
+
+-------------------------------------------------------------------------------------------
+
+<ul>
+<li> Séance : 31 Mai 2018 </li>
+</ul>
+Vérification de la validité et du bon fonctionnement de notre projet.
+<br>
+Présentation orale de notre projet.
+
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+
+<h2>Conclusion</h2>
+<p>Ce projet fut très enrichissant tant d'un point de vu électronique en étant confronté à de nouveaux composants électroniques, qu'informatique par le fait de coder sur un systeme embarqué. 
+  <br> De plus, le fait d'être en autonomie est un vrai plus. En effet, cela  a permis de façonner notre projet tout en travaillant en équipe. *
+<br>Concernant les problèmes rencontrés, certains ont été dur à résoudre car nous n'avons pas forcément le recul nécessaire pour savoir comment les aborder directement.</p>
+
+
+-------------------------------------------------------------------------------------------
+
